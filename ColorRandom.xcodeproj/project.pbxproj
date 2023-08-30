@@ -11,6 +11,14 @@
 		1483C87C2A9F8A4D00AB5AC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483C87B2A9F8A4D00AB5AC5 /* ContentView.swift */; };
 		1483C87E2A9F8A4E00AB5AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1483C87D2A9F8A4E00AB5AC5 /* Assets.xcassets */; };
 		1483C8812A9F8A4E00AB5AC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1483C8802A9F8A4E00AB5AC5 /* Preview Assets.xcassets */; };
+		1483C8882A9F8A5D00AB5AC5 /* BevelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483C8872A9F8A5D00AB5AC5 /* BevelText.swift */; };
+		1483C88A2A9F8A8D00AB5AC5 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483C8892A9F8A8D00AB5AC5 /* ColorCircle.swift */; };
+		1483C88C2A9F8ABC00AB5AC5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483C88B2A9F8ABC00AB5AC5 /* Extension.swift */; };
+		1483C88E2A9F8B4400AB5AC5 /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483C88D2A9F8B4400AB5AC5 /* ColorSlider.swift */; };
+		1483C8902A9F8B7800AB5AC5 /* NeuButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483C88F2A9F8B7800AB5AC5 /* NeuButtonStyle.swift */; };
+		1483C8922A9F8BB300AB5AC5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483C8912A9F8BB300AB5AC5 /* Color.swift */; };
+		1483C8942A9F8BD500AB5AC5 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483C8932A9F8BD500AB5AC5 /* Game.swift */; };
+		1483C8962A9F8BF300AB5AC5 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483C8952A9F8BF300AB5AC5 /* RGB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		1483C87B2A9F8A4D00AB5AC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1483C87D2A9F8A4E00AB5AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1483C8802A9F8A4E00AB5AC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1483C8872A9F8A5D00AB5AC5 /* BevelText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevelText.swift; sourceTree = "<group>"; };
+		1483C8892A9F8A8D00AB5AC5 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
+		1483C88B2A9F8ABC00AB5AC5 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		1483C88D2A9F8B4400AB5AC5 /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
+		1483C88F2A9F8B7800AB5AC5 /* NeuButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuButtonStyle.swift; sourceTree = "<group>"; };
+		1483C8912A9F8BB300AB5AC5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		1483C8932A9F8BD500AB5AC5 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		1483C8952A9F8BF300AB5AC5 /* RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				1483C8792A9F8A4D00AB5AC5 /* ColorRandomApp.swift */,
+				1483C8952A9F8BF300AB5AC5 /* RGB.swift */,
 				1483C87B2A9F8A4D00AB5AC5 /* ContentView.swift */,
+				1483C8872A9F8A5D00AB5AC5 /* BevelText.swift */,
+				1483C88D2A9F8B4400AB5AC5 /* ColorSlider.swift */,
+				1483C88F2A9F8B7800AB5AC5 /* NeuButtonStyle.swift */,
+				1483C8892A9F8A8D00AB5AC5 /* ColorCircle.swift */,
+				1483C8912A9F8BB300AB5AC5 /* Color.swift */,
+				1483C8932A9F8BD500AB5AC5 /* Game.swift */,
+				1483C88B2A9F8ABC00AB5AC5 /* Extension.swift */,
 				1483C87D2A9F8A4E00AB5AC5 /* Assets.xcassets */,
 				1483C87F2A9F8A4E00AB5AC5 /* Preview Content */,
 			);
@@ -137,8 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1483C88C2A9F8ABC00AB5AC5 /* Extension.swift in Sources */,
+				1483C8942A9F8BD500AB5AC5 /* Game.swift in Sources */,
 				1483C87C2A9F8A4D00AB5AC5 /* ContentView.swift in Sources */,
+				1483C88A2A9F8A8D00AB5AC5 /* ColorCircle.swift in Sources */,
 				1483C87A2A9F8A4D00AB5AC5 /* ColorRandomApp.swift in Sources */,
+				1483C8962A9F8BF300AB5AC5 /* RGB.swift in Sources */,
+				1483C8902A9F8B7800AB5AC5 /* NeuButtonStyle.swift in Sources */,
+				1483C8922A9F8BB300AB5AC5 /* Color.swift in Sources */,
+				1483C88E2A9F8B4400AB5AC5 /* ColorSlider.swift in Sources */,
+				1483C8882A9F8A5D00AB5AC5 /* BevelText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +307,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +337,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
